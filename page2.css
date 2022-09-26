@@ -10,6 +10,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* background: rgb(9,4,59);
+    background: linear-gradient(90deg, rgba(9,4,59,1) 27%, rgba(135,169,241,1) 100%, rgba(36,63,134,1) 100%); */
+    background-color: #05386B;
+color: white;
 }
 /* designing the form */
 .p1{
@@ -17,14 +21,17 @@ height: 40%;
 width: 25%;
 margin-left: 2%;
 margin-top: 5%;
-border: 1px solid rebeccapurple;
+/* border: 1px solid rebeccapurple; */
+background-color: #379683;
+color: whitesmoke
 }
 #form1{
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    border:3px solid yellow;
+    /* border:3px solid yellow; */
+    
 }
 .lbl{
 margin: 5px;
@@ -44,14 +51,14 @@ font-size: 1.5rem;
     font-size: larger;
     font-weight: bolder;
     border: none;
-    background-color: blueviolet;
+    background-color: #05386B;
     color: white;
     cursor: pointer;
 }
 
 /* second part that will be the rexommendation */
 .p2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 3px;
     width: 70%;
     height: 99%;
@@ -66,7 +73,7 @@ font-size: 1.5rem;
 .heading{
     width: 99%;
     height: 60%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .options{
@@ -76,11 +83,12 @@ font-size: 1.5rem;
     flex-direction: row;
 }
 .op{
+    
     height: 99%;
     width: 24%;
     margin: 0px 3px;
     border:1px solid green;
-    background-color: aquamarine;
+    background-color: #EDF5E1;
     top:0;
     transition: 1s ease;
 }
